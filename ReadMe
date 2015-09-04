@@ -1,0 +1,10 @@
+This program prints out a multiplication table of the first 10 prime numbers (Default).
+The program runs from the command line and prints one table to STDOUT.
+The first row and column of the table consists of the 10 primes, with each cell containing the product of the primes for the corresponding row and column.
+    • Program works for N primes.
+    • Tests are written using Mocha JS and should JS for assertions.
+installations - npm install node, npm install mocha, npm install should
+Steps to execute the program (if noofprimes argument is not given, by default it executes for 10 primes)
+    node Index.js noofprimes
+Steps to run tests
+    mocha getPrimes-spec.js
